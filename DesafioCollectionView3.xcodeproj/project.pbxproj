@@ -16,6 +16,10 @@
 		6D5E84FC2822035900CA6EBD /* DesafioCollectionView3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E84FB2822035900CA6EBD /* DesafioCollectionView3Tests.swift */; };
 		6D5E85062822035900CA6EBD /* DesafioCollectionView3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E85052822035900CA6EBD /* DesafioCollectionView3UITests.swift */; };
 		6D5E85082822035900CA6EBD /* DesafioCollectionView3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E85072822035900CA6EBD /* DesafioCollectionView3UITestsLaunchTests.swift */; };
+		6D5E85152822051E00CA6EBD /* Jogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E85142822051E00CA6EBD /* Jogo.swift */; };
+		6D5E85172822A06800CA6EBD /* JogosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E85162822A06800CA6EBD /* JogosCollectionViewCell.swift */; };
+		6D5E85192822A75E00CA6EBD /* DetalhesJogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E85182822A75E00CA6EBD /* DetalhesJogoViewController.swift */; };
+		6D5E851B2822A9A900CA6EBD /* GeneroEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E851A2822A9A900CA6EBD /* GeneroEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		6D5E85012822035900CA6EBD /* DesafioCollectionView3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioCollectionView3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5E85052822035900CA6EBD /* DesafioCollectionView3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioCollectionView3UITests.swift; sourceTree = "<group>"; };
 		6D5E85072822035900CA6EBD /* DesafioCollectionView3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioCollectionView3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6D5E85142822051E00CA6EBD /* Jogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jogo.swift; sourceTree = "<group>"; };
+		6D5E85162822A06800CA6EBD /* JogosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogosCollectionViewCell.swift; sourceTree = "<group>"; };
+		6D5E85182822A75E00CA6EBD /* DetalhesJogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesJogoViewController.swift; sourceTree = "<group>"; };
+		6D5E851A2822A9A900CA6EBD /* GeneroEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneroEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				6D5E84ED2822035800CA6EBD /* Assets.xcassets */,
 				6D5E84EF2822035800CA6EBD /* LaunchScreen.storyboard */,
 				6D5E84F22822035800CA6EBD /* Info.plist */,
+				6D5E85142822051E00CA6EBD /* Jogo.swift */,
+				6D5E85162822A06800CA6EBD /* JogosCollectionViewCell.swift */,
+				6D5E85182822A75E00CA6EBD /* DetalhesJogoViewController.swift */,
+				6D5E851A2822A9A900CA6EBD /* GeneroEnum.swift */,
 			);
 			path = DesafioCollectionView3;
 			sourceTree = "<group>";
@@ -258,7 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D5E85192822A75E00CA6EBD /* DetalhesJogoViewController.swift in Sources */,
+				6D5E85152822051E00CA6EBD /* Jogo.swift in Sources */,
+				6D5E85172822A06800CA6EBD /* JogosCollectionViewCell.swift in Sources */,
 				6D5E84E92822035400CA6EBD /* ViewController.swift in Sources */,
+				6D5E851B2822A9A900CA6EBD /* GeneroEnum.swift in Sources */,
 				6D5E84E52822035400CA6EBD /* AppDelegate.swift in Sources */,
 				6D5E84E72822035400CA6EBD /* SceneDelegate.swift in Sources */,
 			);
